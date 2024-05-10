@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #d8dada;
+  font-size: 19px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  width: 98%;
+
+}
+
+#logo {
+  max-width: 80px;
+  margin: 3% 0 3% 3%;
+  float: left;
+}
+
+#wrapper {
+  background-color: #f0f6fb;
+}
+
+#social {
+  float: right;
+  margin: 3% 2% 4% 3%;
+  list-style-type: none;
+}
+
+#social>li {
+  display: inline;
+}
+
+#social>li>a>img {
+  max-width: 35px;
+}
+
+.name {
+  float: left;
+  padding: 3% 2% 6%;
+  margin: 3% 0 3% 3%;
+  list-style-type: none;
+  color: #303840;
+  font-size: 30px;
+  font-weight: 1000;
+
+}
+
+#banner {
+  margin: 3%;
+}
+
+h1,
+p {
+  margin: 3%;
+}
+
+.btn {
+  float: right;
+  margin: 0 2% 4% 0;
+  background-color: #303840;
+  color: #f6faff;
+  text-decoration: none;
+  font-weight: 800;
+  padding: 8px 12px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+hr {
+  height: 1px;
+  background-color: #303840;
+  clear: both;
+  width: 96%;
+  margin: auto;
+}
+
+#contact {
+  text-align: center;
+  padding-bottom: 3%;
+  line-height: 16px;
+  font-size: 12px;
+  color: #303840;
+}
